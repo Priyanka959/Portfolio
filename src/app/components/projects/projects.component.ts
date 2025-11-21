@@ -244,7 +244,7 @@ export class ProjectsComponent {
       technologies: ['Python', 'TensorFlow', 'Keras', 'Streamlit', 'Google Colab'],
       github: 'https://github.com/Priyanka959/pneumonia-detection',
       demo: '#',
-      image: 'assets/projects/ml-project.jpg'
+      image: 'assets/projects/xray.webp'
     },
     {
       name: 'Retail Invoice Generator',
@@ -252,7 +252,7 @@ export class ProjectsComponent {
       technologies: ['Spring Boot', 'React.js', 'SQL', 'REST APIs'],
       github: 'https://github.com/Priyanka959/Retail-billing-system',
       demo: '#',
-      image: 'assets/projects/invoice.jpg'
+      image: 'assets/projects/invoice.png'
     },
     {
       name: 'E-Learning Platform',
@@ -260,7 +260,7 @@ export class ProjectsComponent {
       technologies: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'JWT'],
       github: 'https://github.com/Priyanka959/elearning',
       demo: '#',
-      image: 'assets/projects/elearning.jpg'
+      image: 'assets/projects/e-learning_app.jpg'
     },
     {
       name: 'Soil Yield Prediction',
@@ -268,7 +268,7 @@ export class ProjectsComponent {
       technologies: ['Python', 'Streamlit', 'scikit-learn', 'XGBoost', 'Pandas'],
       github: 'https://github.com/Priyanka959/soil-yield-prediction',
       demo: '#',
-      image: 'assets/projects/soil.jpg'
+      image: 'assets/projects/soil.jpeg'
     }
   ];
 }

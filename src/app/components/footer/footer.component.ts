@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <p class="mb-0">© {{ currentYear }} [Your Name]. All rights reserved.</p>
+            <p class="mb-0">© {{ currentYear }} Priyanka Kulal. All rights reserved.</p>
           </div>
         </div>
       </div>

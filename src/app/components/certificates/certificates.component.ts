@@ -18,7 +18,6 @@ interface Certificate {
           <div class="col-md-6 col-lg-4" *ngFor="let cert of certificates" data-aos="fade-up">
             <div class="card h-100">
               <div class="card-body text-center">
-                <img [src]="cert.logo" [alt]="cert.issuer" class="certification-logo mb-3">
                 <h5 class="card-title">{{ cert.title }}</h5>
                 <p class="card-text text-muted">{{ cert.issuer }}</p>
                 <p class="card-text"><small class="text-muted">{{ cert.date }}</small></p>
@@ -33,11 +32,6 @@ interface Certificate {
     </section>
   `,
   styles: [`
-    .certification-logo {
-      height: 80px;
-      object-fit: contain;
-      margin-bottom: 1rem;
-    }
     .card {
       transition: transform 0.3s;
       box-shadow: 0 4px 6px rgba(0,0,0,.1);

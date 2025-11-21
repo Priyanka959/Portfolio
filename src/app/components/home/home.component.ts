@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
         <div class="row align-items-center min-vh-100">
           <div class="col-lg-6 text-center text-lg-start" data-aos="fade-right">
             <div class="heading-box">
-              <span class="subtitle">👋 Welcome to my portfolio</span>
+              <span class="subtitle">Welcome to my portfolio</span>
               <h1 class="main-heading">Hi, I'm <span class="highlight">Priyanka Kulal</span></h1>
               <h2 class="sub-heading">Full Stack Developer & ML Engineer</h2>
             </div>
@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
               Experienced in building web applications and implementing ML solutions for real-world problems.
             </p>
             <div class="cta-buttons" data-aos="fade-up" data-aos-delay="200">
-              <a href="assets/resume.pdf" class="btn btn-primary btn-lg me-3" download>
+              <a href="assets/resume/priyanka__resume.pdf" class="btn btn-primary btn-lg me-3" download>
                 <i class="bi bi-download me-2"></i>Download CV
               </a>
               <a href="#contact" class="btn btn-outline-primary btn-lg">
@@ -39,17 +39,13 @@ import { Component } from '@angular/core';
           <div class="col-lg-6" data-aos="fade-left">
             <div class="profile-wrapper">
               <div class="profile-card">
-                <img src="assets/profile.jpg" alt="John Doe" class="profile-image">
-                <div class="experience-badge">
-                  <span class="number">5+</span>
-                  <span class="text">Years<br>Experience</span>
-                </div>
+                <img src="assets/profile/profile.png" alt="Priyanka Kulal" class="profile-image">
               </div>
               <div class="tech-stack" data-aos="fade-up" data-aos-delay="200">
-                <span class="tech-badge">Angular</span>
-                <span class="tech-badge">Node.js</span>
-                <span class="tech-badge">TypeScript</span>
-                <span class="tech-badge">AWS</span>
+                <span class="tech-badge">MERN</span>
+                <span class="tech-badge">SPRING</span>
+                <span class="tech-badge">JAVA</span>
+                <span class="tech-badge">MySQL</span>
               </div>
             </div>
           </div>
